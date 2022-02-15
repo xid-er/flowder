@@ -1,4 +1,6 @@
-# Flowder
+# Flowder fork
+
+## WARNING: Don't privatise, used for Flock Information Centre!
 
 Handle your file downloads status in a more simple and easy way :heartbeat:
 
@@ -23,11 +25,11 @@ flowder: ^0.2.0
 
 ### Basic  
 
-To start using flowder, is required to do the following setup.
+To start using flowder, it is required to do the following setup:
 
 ```dart
 
-fina downloaderUtils = DownloaderUtils(
+final downloaderUtils = DownloaderUtils(
 
 progressCallback: (current, total) {
 
@@ -57,7 +59,7 @@ downloaderUtils);
 
   
 
-To *start* a new download.
+To *start* a new download:
 
 ```dart
 
@@ -68,7 +70,7 @@ core.download(url, downloaderUtils);
   
   
 
-To *resume* a download.
+To *resume* a download:
 
 ```dart
 
@@ -78,7 +80,7 @@ core.resume();
 
   
 
-To *cancel* a download.
+To *cancel* a download:
 
 ```dart
 
@@ -88,7 +90,7 @@ core.cancel();
 
   
 
-To *pause* a download.
+To *pause* a download:
 
 ```dart
 
